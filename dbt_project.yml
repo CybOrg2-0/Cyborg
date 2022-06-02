@@ -12,6 +12,8 @@ models:
   my_new_project:
     example:
       materialized: view
+    stage:
+      +schema: CYB_STG_SCH
 name: my_new_project
 profile: default
 seed-paths:
