@@ -13,7 +13,10 @@ models:
     example:
       materialized: view
     stage:
-      +schema: CYB_STG_SCH
+      dimension:
+         +schema: CYB_STG_SCH
+      final:
+         +schema: CYB_INTG_SCH   
 name: my_new_project
 profile: default
 seed-paths:
