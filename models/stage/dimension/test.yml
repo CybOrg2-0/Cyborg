@@ -1,0 +1,13 @@
+version: 2
+
+models:
+    - name: STG_USER_MAL_URL
+      columns:
+          - name: USER_NAME
+           
+            tests:
+                - unique
+                - not_null
+
+              
+    
