@@ -6,8 +6,8 @@ models:
           - name: URL
            
             tests:
-                - unique
-                - not_null
+             - unique
+             - not_null
 
               
     

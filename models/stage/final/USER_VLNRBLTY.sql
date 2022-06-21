@@ -8,7 +8,7 @@ with data1 as (
     DESCRIPTION,
     OWASP_CAT
 
-    from DEV_CYBORG.CYB_STG_SCH.STG_USER_VLNRBLTY
+    from DEV_CYBORG.CYB_STG_SCH.STG_USER_VULNRBLTY
 )
 
 select * from data1
