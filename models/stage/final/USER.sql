@@ -19,7 +19,7 @@ with data1 as (
      OS_NAME_VERSION,
      ANTIMALWARE
 
-     from DEV_CYBORG.CYB_STG_SCH.STG_USER_VLNRBLTY
+     from DEV_CYBORG.CYB_STG_SCH.STG_USER_VULNRBLTY
  ),
 
   final as (
