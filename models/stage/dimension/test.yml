@@ -6,7 +6,7 @@ models:
           - name: URL
            
             tests:
-             - unique
+            
              - not_null
 
               
